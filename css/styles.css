@@ -48,12 +48,13 @@ img {
 }
 .header {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .header-nav {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .links-list {
   display: flex;
@@ -76,6 +77,8 @@ img {
 }
 .contacts {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-links {
   color: var(--navyblue, #2e2f42);
@@ -278,10 +281,9 @@ img {
 /* FOOTER */
 .footer {
   background-color: var(--navyblue);
-}
-.footer-section {
   padding: 100px 0;
 }
+
 .logo-footer {
   display: inline-block;
   color: var(--iris);
