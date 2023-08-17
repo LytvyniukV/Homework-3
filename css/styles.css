@@ -6,10 +6,9 @@
   --cloud: #f4f4fd;
 }
 body {
-  background-color: #fff;
+  background-color: var(--white);
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
-  
 }
 a {
   text-decoration: none;
@@ -32,7 +31,7 @@ img {
   object-fit: fill;
   width: 100%;
 }
-button{
+button {
   cursor: pointer;
 }
 .container {
@@ -46,12 +45,11 @@ button{
 }
 /* HEADER */
 .header-section {
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
+  border-bottom: 1px solid var(--cornflower);
+  background: var(--white);
 }
 .header {
   display: flex;
-  
 }
 .header-nav {
   display: flex;
@@ -68,7 +66,6 @@ button{
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -76,15 +73,14 @@ button{
   margin-right: 76px;
 }
 .logo-accent {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
 }
 .contacts {
-  font-style: normal;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 .header-links {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -100,10 +96,10 @@ button{
   gap: 40px;
 }
 .contact-links {
-  color: var(--slate, #434455);
+  color: var(--slate);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -119,9 +115,8 @@ button{
 }
 
 .hero-title {
-  color: var(--white, #fff);
+  color: var(--white);
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -130,10 +125,9 @@ button{
   text-align: center;
 }
 .hero-button {
-  background: var(--iris, #4d5ae5);
-  color: var(--white, #fff);
+  background: var(--iris);
+  color: var(--white);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -171,13 +165,12 @@ button{
   display: flex;
   gap: 24px;
 }
-.benefits-items{
+.benefits-items {
   flex-basis: calc((100% - 72px) / 4);
 }
 .benefits-cards-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -192,9 +185,8 @@ button{
 
 /* TITLE AND TEXT FOR SECTIONS */
 .cards-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -212,26 +204,24 @@ button{
   background-color: var(--cloud);
 }
 .section-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.card-container{
+.card-container {
   padding: 32px 0;
-
 }
 .team-list {
   display: flex;
   gap: 24px;
 }
 .team-item {
-  background: var(--white, #fff);
+  background: var(--white);
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -245,7 +235,7 @@ button{
 .team-title {
   text-align: center;
 }
-.team-text{
+.team-text {
   text-align: center;
 }
 /* PORTFOLIO SECTION */
@@ -255,20 +245,19 @@ button{
   column-gap: 24px;
   row-gap: 48px;
 }
-.container-portfolio{
+.container-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   width: 360px;
 }
 .portfolio-item {
-  background: var(--white, #fff);
+  background: var(--white);
   width: calc((100% - 48px) / 3);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-
 
 .portfolio-images {
   background: lightgray -25.026px 0px / 125% 100% no-repeat;
@@ -285,7 +274,6 @@ button{
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -296,7 +284,7 @@ button{
   color: var(--cloud);
 }
 .text-footer {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
